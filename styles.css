@@ -1,0 +1,98 @@
+.headlogo {text-align: center;
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: #fff;
+    background-color: #5995DA;  /* Blue */
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
+  }
+  
+  .menu {
+    border: 1px solid #fff;  
+    width: 900px;
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+
+ }
+
+ .links {
+     border: 1px solid transparent;
+     display: flex;
+     justify-content: flex-end;
+     }
+
+ .login {
+      margin-left: 10px;    
+      }     
+
+ .header-container { 
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;          
+
+      }
+
+
+   .header { 
+     width: 1000px;
+     height: 550px;
+     display: flex;
+     justify-content: center; 
+         
+ }
+
+/* IMAGE LAYOUT */
+
+   .photo-grid-container {
+    display: flex;
+    justify-content:center ;
+    background-color: #376ba7;
+   
+    
+ 
+  }
+  
+   .photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 605px;
+    flex-direction: row;
+    align-items: center;
+    
+
+  }
+  
+   .photo-grid-item {
+     width: 300px;
+     height: 300px;
+     
+
+
+  }
+
+  .photo-grid-item img {
+     border: #5995DA solid;
+     
+
+
+  }
+
+
+
+
